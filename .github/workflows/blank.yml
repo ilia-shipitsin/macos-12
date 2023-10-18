@@ -22,7 +22,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        os: [ 'macos-12', 'macos-12-xl' ]
+        os: [ 'macos-12', 'macos-12-large' ]
   
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
